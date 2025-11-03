@@ -3,6 +3,18 @@ name = "rs-docker-volumes2arrow-ipc"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the volumes info as an ipc stream."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-docker-volumes2arrow-ipc"
+homepage = "https://github.com/takanoriyanagitani/rs-docker-volumes2arrow-ipc"
+documentation = "https://docs.rs/rs-docker-volumes2arrow-ipc/latest"
+keywords = ["arrow", "ipc", "stream", "docker", "volumes"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"rs-docker-volumes2arrow-ipc",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
